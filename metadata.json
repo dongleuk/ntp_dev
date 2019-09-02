@@ -1,0 +1,19 @@
+{
+  "name" : "dongleuk-ntp_dev",
+  "version" : "0.1.1",
+  "author" : "John Johnson",
+  "summary" : "Manage NTP",
+  "license": "Apache-2.0",
+  "source": "https://github.com/dongleuk/ntp_dev.git",
+  "project_page": "https://github.com/dongleuk/ntp_dev",
+  "tags" : ["ntp"],
+    "dependencies": [
+    { "name":"puppetlabs/stdlib", "version_requirement": ">= 4.17.0 < 5.0.0" }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "16.04" ]
+    }
+  ]
+}
